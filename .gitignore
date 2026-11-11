@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.google_ads_agent/
+# Local credentials and generated distribution artifacts
+.env
+.env.*
+!.env.example
+dist/
+build/
+*.egg-info/
+
+google-ads.yaml
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
